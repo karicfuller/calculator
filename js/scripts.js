@@ -21,6 +21,20 @@ var add = function(number1, number2) {
 };
 
 var number1 = parseInt(prompt('Enter your age'));
-var number2 = parseInt(prompt('Enter your height'));
+var number2 = parseInt(prompt('Enter your weight'));
 var result = add(number1, number2);
+alert(result);
+
+
+var multiplyNumbers = function() {alert('Now we will multiply numbers'); };
+
+multiplyNumbers()
+
+var multiply = function(number1, number2) {
+  return number1 * number2;
+};
+
+var number1 = parseInt(prompt('Gimme a number'));
+var number2 = parseInt(prompt('And another one'));
+var result = multiply(number1, number2);
 alert(result);
