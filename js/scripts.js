@@ -1,4 +1,4 @@
-var sayHi = function() {alert('Hello Jay'); };
+var sayHi = function() {alert('What is the sum of these numbers?'); };
 
 sayHi()
 
